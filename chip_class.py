@@ -106,7 +106,7 @@ class Chip:
         """
         mean=sum(sample)/len(sample)
         deviations = [(x - mean) ** 2 for x in sample]
-        standard_dev = np.sqrt(sum(deviations)/len(sample))
+        standard_dev = np.sqrt(sum(deviations)/(len(sample)-1))
         return standard_dev, mean
 
     def _add_edge(self, a: Pin, b: Pin, global_distance: int, partial_distance: List[int], i: int) -> None:
