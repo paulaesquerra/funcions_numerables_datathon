@@ -14,7 +14,7 @@ def main():
     for pin in c.not_connected:
         G.add_node(pin.name, pos = (pin.x, pin.y), color = 'blue')
 
-    method = "slow"     #str(input("Choose fast or slow method: "))
+    method = "fast"     #str(input("Choose fast or slow method: "))
 
     # we create the path using either the fast or the slow algo
     if (method == "fast"):
