@@ -27,7 +27,6 @@ This method splits the y-axis into 32 different intervals. Each interval is asso
  git clone https://github.com/paulaesquerra/funcions_numerables_datathon.git
  cd funcions_numerables_datathon
  pip3 install -r requirements.txt
-
  ```
  Then you can run:
  ```
