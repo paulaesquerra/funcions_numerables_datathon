@@ -34,3 +34,8 @@ This method splits the y-axis into 32 different intervals. Each interval is asso
  python3 main.py [input_file]
  ```
  When executed it will show you total path distance, the mean and the standard desviation, as well as the 
+ 
+ In order to check the validity of the solution run:
+ ```
+python3 solution_metrics.py [input_file] [output_file]
+```
