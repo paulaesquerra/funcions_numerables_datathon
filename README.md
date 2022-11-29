@@ -38,3 +38,5 @@ This method splits the y-axis into 32 different intervals. Each interval is asso
  ```
 python3 solution_metrics.py [input_file] [output_file]
 ```
+___
+Made with :heart: by Chips-Chips ([Paula](https://github.com/paulaesquerra), [Ruth](https://github.com/ruthilberry), [Àlex](https://github.com/AlexRG03), [Miquel](https://github.com/miquelt9))
